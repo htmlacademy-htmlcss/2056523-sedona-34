@@ -5,6 +5,7 @@
     src: url("../fonts/ptsans-400.woff2") format(woff2);
     font-display: swap;
 }
+
 @font-face {
     font-family: "PT Sans";
     font-style: normal;
@@ -12,10 +13,121 @@
     src: url("../fonts/ptsans-700.woff2") format(woff2);
     font-display: swap;
 }
+
 body {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    width: 1280px;
-    height: 3315px;
+    width: 1200px;
     background: #f2f2f2;
+    color: #000000;
+    margin: 0;
+    padding: 0 40px;
+}
+
+/* Header */
+
+.main-header {
+    width: 1200px;
+    height: 400px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.logo {
+    margin: 0 30px 0 70px;
+}
+
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    margin: 20px 17px;
+
+}
+
+.navigation-item {
+    list-style-type: none;
+}
+
+.custom-link {
+    width: 160px;
+    height: 37px;
+    background: #756157;
+    padding: 9px 15px 8px 15px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+/* Main */
+
+.visually-hidden {
+    margin: 0;
+    display: none;
+}
+
+.presentation {
+    width: 1200px;
+    height: 767px;
+}
+
+.presentation-picture {
+    background-image: url("/images/background/index-background.jpg");
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.presentation-picture-welcome {
+    margin: 51px 371px 82px 371px;
+}
+
+.presentation-text-sedona {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.presentation-text-reason {
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    margin: 31px 0 90px 0;
+}
+
+.advantages-item {
+    list-style-type: none;
+}
+
+.advantages-inner-item {
+    list-style-type: none;
+}
+
+.real-town {
+    width: 400px;
+    height: 384px;
+    background: #82B3D3;
+    text-align: center;
+}
+
+.real-town-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 92px 0 236px 85px;
 }
