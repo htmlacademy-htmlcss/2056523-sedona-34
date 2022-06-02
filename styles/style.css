@@ -12,3 +12,10 @@
     src: url("../fonts/ptsans-700.woff2") format(woff2);
     font-display: swap;
 }
+body {
+    font-size: 18px;
+    line-height: 21px;
+    width: 1280px;
+    height: 3315px;
+    background: #f2f2f2;
+}
