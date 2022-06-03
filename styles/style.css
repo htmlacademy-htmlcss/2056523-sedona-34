@@ -26,60 +26,44 @@ body {
     padding: 0 40px;
 }
 
+.visually-hidden {
+    display: none;
+    margin: 0;
+}
+
+
 /* Header */
 
+
 .main-header {
-    width: 1200px;
-    height: 400px;
     background-color: #ffffff;
     color: #000000;
 }
 
-.logo {
-    margin: 0 30px 0 70px;
-}
-
 .navigation-link {
-    font-family: "PT Sans", sans-serif;
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    color: #000000;
+    text-transform: capitalize;
     text-decoration: none;
-    text-align: center;
-    padding: 0;
-    margin: 20px 17px;
-
-}
-
-.navigation-item {
-    list-style-type: none;
+    color: #000000;
 }
 
 .custom-link {
-    width: 160px;
-    height: 37px;
-    background: #756157;
-    padding: 9px 15px 8px 15px;
-    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    text-align: center;
+    padding: 9px 15px 8px 15px;
+    background: #756157;
+    border-radius: 4px;
     color: #ffffff;
-
 }
+
 
 /* Main */
 
-.visually-hidden {
-    margin: 0;
-    display: none;
-}
-
-.presentation {
-    width: 1200px;
-    height: 767px;
-}
 
 .presentation-picture {
     background-image: url("/images/background/index-background.jpg");
@@ -92,6 +76,10 @@ body {
     margin: 51px 371px 82px 371px;
 }
 
+.divider-image {
+    margin-bottom: 61px;
+}
+
 .presentation-text-sedona {
     font-weight: 700;
     font-size: 30px;
@@ -99,28 +87,28 @@ body {
 
     text-align: center;
     text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 31px;
 }
 
 .presentation-text-reason {
     font-size: 22px;
     line-height: 26px;
     text-align: center;
-    margin: 31px 0 90px 0;
+    margin: 0;
+    margin-bottom: 90px;
 }
 
-.advantages-item {
-    list-style-type: none;
-}
-
-.advantages-inner-item {
-    list-style-type: none;
-}
+/* Main advantages */
 
 .real-town {
     width: 400px;
     height: 384px;
-    background: #82B3D3;
+    font-size: 18px;
+    line-height: 21px;
     text-align: center;
+    color: #ffffff;
+    background: #82B3D3;
 }
 
 .real-town-title {
@@ -128,6 +116,87 @@ body {
     font-size: 24px;
     line-height: 28px;
     text-transform: uppercase;
+    padding-top: 92px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.real-town-humber {
+    margin: 0;
+    margin-bottom: 30px;
     color: #ffffff;
-    margin: 92px 0 236px 85px;
+}
+
+.advantages-inner-item {
+    width: 400px;
+    height: 384px;
+    background: rgba(131, 179, 211, 0.12);
+    color: #000000;
+    text-align: center;
+}
+
+.advantages-food {
+    background: #ffffff;
+    color: #000000;
+}
+
+.inner-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.inner-description {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.devil-bridge {
+    width: 400px;
+    height: 384px;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #ffffff;
+    background: #82B3D3;
+}
+
+
+.devil-bridge-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    padding-top: 92px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+
+.devil-bridge-humber {
+    margin: 0;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.advantages-road {
+    background: rgba(131, 179, 211, 0.2);
+    color: #000000;
+}
+
+.inner-devil-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 103px 0 0 0 ;
+}
+
+.advantages-humber {
+    margin: 0;
+    margin-bottom: 30px;
 }
