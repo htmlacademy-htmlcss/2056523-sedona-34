@@ -103,6 +103,7 @@ body {
 
 .advantages-list {
     margin: 0;
+    list-style-type: none;
 }
 
 .real-town {
@@ -137,6 +138,7 @@ body {
     background: rgba(131, 179, 211, 0.12);
     color: #000000;
     text-align: center;
+    list-style-type: none;
 }
 
 .advantages-food {
@@ -284,7 +286,6 @@ body {
 
 .subscription-form {
     align-items: center;
-    margin-bottom: 94px;
 }
 
 input[type="email"] {
@@ -314,4 +315,32 @@ input[type="email"] {
     text-transform: uppercase;
     color: #ffffff;
     background: #82B3D3;
+}
+
+
+/* Main footer */
+
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.footer-social-list {
+    margin: 0;
+}
+
+.social-phone {
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.htmlacademy-link {
+    display: inline-block;
+    color: #000000;
 }
