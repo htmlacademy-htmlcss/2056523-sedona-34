@@ -101,6 +101,10 @@ body {
 
 /* Main advantages */
 
+.advantages-list {
+    margin: 0;
+}
+
 .real-town {
     width: 400px;
     height: 384px;
@@ -193,10 +197,57 @@ body {
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 30px;
-    padding: 103px 0 0 0 ;
+    padding: 103px 0 0 0;
 }
 
 .advantages-humber {
     margin: 0;
     margin-bottom: 30px;
+}
+
+
+/* Main hotel search */
+
+.hotel-search {
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding-bottom: 105px;
+}
+
+.hotel-search-question {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+
+    padding-top: 91px;
+    margin: 0;
+    margin-bottom: 29px;
+}
+
+.hotel-search-info {
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+
+    margin: 0;
+    margin-bottom: 56px;
+}
+
+.hotel-search-link {
+    display: inline-block;
+
+    width: 544px;
+    height: 36px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #756157;
+    border-radius: 4px;
+    padding: 12px 15px;
 }
