@@ -344,3 +344,89 @@ input[type="email"] {
     display: inline-block;
     color: #000000;
 }
+
+
+/* Catalog */
+
+.filter-content {
+    background: url("/images/background/catalog-background.jpg");
+    background-repeat: no-repeat;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.inner-header-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 78px;
+    color: #ffffff;
+    padding-top: 35px;
+    padding-left: 70px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.breadcrumbs {
+    margin: 0;
+    padding: 0;
+    padding-left: 70px;
+}
+
+
+.breadcrumbs-item {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.breadcrumbs-link {
+    color: #ffffff;
+}
+
+
+.filter-info {
+    margin-top: 40px;
+}
+
+.filter-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.filter-list {
+    list-style-type: none;
+    margin: 0;
+}
+
+.control-input {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+button[type="submit"] {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #82B3D3;
+    border-radius: 4px;
+    padding: 14px 15px;
+    border: none;
+}
+
+button[type="reset"] {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: inherit;
+    border: none;
+}
