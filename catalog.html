@@ -49,21 +49,26 @@
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">Главная домик декор</a>
+            <a class="breadcrumbs-link" href="index.html">
+              <img src="/images/breadcrumbs-icon-house.svg" width="13" height="13" alt="Главная.">
+              <span class="visually-hidden">Главная домик декор</span>
+            </a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="#">стрелка декор</a>
+            <img class="breadcrumbs-images-arrow" src="/images/right-arrow-breadcrumbs.svg" width="6" height="9"
+              alt="Стрелка.">
+            <span class="visually-hidden">стрелка декор</span>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="#">Гостиницы</a>
           </li>
         </ul>
       </header>
-      <div class="filter-info">
+      <section class="filter-info">
         <h2 class="visually-hidden">Выбор инфраструктуры.</h2>
         <form class="infrastructure" action="https://echo.htmlacademy.ru/" method="post">
-          <div class="filter-groyp">
-            <h3 class="filter-title">Инфраструктура:</h3>
+          <fieldset class="filter-groyp">
+            <legend class="filter-title">Инфраструктура:</legend>
             <ul class="filter-list">
               <li class="filter-item">
                 <label class="control">
@@ -84,11 +89,9 @@
                 </label>
               </li>
             </ul>
-          </div>
-        </form>
-        <form class="infrastructure">
-          <div class="filter-groyp">
-            <h3 class="filter-title">Тип Жилья:</h3>
+          </fieldset>
+          <fieldset class="filter-groyp">
+            <legend class="filter-title">Тип Жилья:</legend>
             <ul class="filter-list">
               <li class="filter-item">
                 <label class="control">
@@ -109,17 +112,15 @@
                 </label>
               </li>
             </ul>
-          </div>
-        </form>
-        <h2 class="visually-hidden">Выбор цены проживания.</h2>
-        <div class="filter-groyp price-selection">
-          <h3 class="filter-title price-selection-title">Стоимость, ₽:</h3>
-        </div>
-        <div class="filter-groyp">
+          </fieldset>
+          <h2 class="visually-hidden">Выбор цены проживания.</h2>
+          <fieldset class="filter-groyp">
+            <legend class="price-selection-title">Стоимость, ₽:</legend>
+          </fieldset>
           <button class="button" type="submit">Применить</button>
           <button class="button" type="reset">Сбросить</button>
-        </div>
-      </div>
+        </form>
+      </section>
     </section>
     <section class="catalog">
       <h2 class="visually-hidden">Количество найденных гостиниц.</h2>
@@ -155,7 +156,7 @@
           </div>
           <div class="catalog-number-stars">
             <div class="number-stars-result">
-              <img src="#" alt="Звезда">
+              <img src="#" alt="Четырехзвездочный отель.">
               <img src="#" alt="">
               <img src="#" alt="">
               <img src="#" alt="">
@@ -177,7 +178,7 @@
           </div>
           <div class="catalog-number-stars">
             <div class="number-stars-result">
-              <img src="#" alt="Звезда">
+              <img src="#" alt="Четырехзвездочный отель.">
               <img src="#" alt="">
               <img src="#" alt="">
               <img src="#" alt="">
@@ -199,7 +200,7 @@
           </div>
           <div class="catalog-number-stars">
             <div class="number-stars-result">
-              <img src="#" alt="Звезда">
+              <img src="#" alt="Трехзвездочный отель.">
               <img src="#" alt="">
               <img src="#" alt="">
             </div>
@@ -220,8 +221,7 @@
           </div>
           <div class="catalog-number-stars">
             <div class="number-stars-result">
-              <img src="#" alt="Звезда">
-              <img src="#" alt="">
+              <img src="#" alt="Двухзвездочный отель.">
               <img src="#" alt="">
             </div>
             <div class="rating">Рейтинг: 5,0</div>
