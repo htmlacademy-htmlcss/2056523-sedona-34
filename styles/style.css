@@ -135,9 +135,23 @@ body {
     list-style-type: none;
 }
 
+
+.advantages-housing {
+    background-image: url("../images/icon-house.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .advantages-food {
-    background: #ffffff;
-    color: #000000;
+    background-image: url("../images/food-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.advantages-souvenirs {
+    background-image: url("../images/icon-souvenirs.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .inner-title {
