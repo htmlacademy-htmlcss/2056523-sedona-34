@@ -60,7 +60,7 @@ body {
 
 
 .presentation-picture {
-    background-image: url("/images/background/index-background.jpg");
+    background-image: url("../images/background/index-background.jpg");
     background-repeat: no-repeat;
     background-color: #ffffff;
     color: #000000;
@@ -265,7 +265,7 @@ body {
 /* Main subscription */
 
 .subscription {
-    background-image: url("/images/background/mailing-background.jpg");
+    background-image: url("../images/background/mailing-background.jpg");
     background-repeat: no-repeat;
     background-color: #ffffff;
     color: #000000;
@@ -296,7 +296,7 @@ body {
     align-items: center;
 }
 
-input[type="email"] {
+.mailing-email {
     width: 600px;
     height: 60px;
     border-radius: 10px 0 0 10px;
@@ -364,7 +364,7 @@ input[type="email"] {
 
 
 .filter-content {
-    background: url("/images/background/catalog-background.jpg");
+    background: url("../images/background/catalog-background.jpg");
     background-repeat: no-repeat;
     background-color: #000000;
     color: #ffffff;
@@ -457,7 +457,7 @@ button[type="submit"] {
     border: none;
 }
 
-button[type="reset"] {
+. {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
@@ -601,6 +601,6 @@ button[type="reset"] {
     text-align: center;
 }
 
-input[type="email"] {
-    background: #F2F2F2;
+.to-sign-catalog {
+    background-color: #F2F2F2;
 }
