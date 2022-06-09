@@ -24,16 +24,16 @@
           <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
-      <ul class="navigation-list custom-menu">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
+      <ul class="custom-menu">
+        <li class="custom-item">
+          <a class="custom-link-search" href="#">
             <span class="visually-hidden">
               Поиск
             </span>
           </a>
         </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
+        <li class="custom-item">
+          <a class="custom-link-favorite" href="#">
             <span class="visually-hidden">
               Лайк
             </span>
@@ -48,16 +48,13 @@
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
+          <li class="breadcrumbs-item item-mein">
             <a class="breadcrumbs-link" href="index.html">
-              <img src="/images/breadcrumbs-icon-house.svg" width="13" height="13" alt="Главная.">
-              <span class="visually-hidden">Главная домик декор</span>
+              <span class="visually-hidden">Главная</span>
             </a>
           </li>
-          <li class="breadcrumbs-item">
-            <img class="breadcrumbs-images-arrow" src="/images/right-arrow-breadcrumbs.svg" width="6" height="9"
-              alt="Стрелка.">
-            <span class="visually-hidden">стрелка декор</span>
+          <li class="breadcrumbs-item item-arrow">
+            <span class="visually-hidden">стрелка</span>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="#">Гостиницы</a>
@@ -67,7 +64,7 @@
       <section class="filter-info">
         <h2 class="visually-hidden">Выбор инфраструктуры.</h2>
         <form class="infrastructure" action="https://echo.htmlacademy.ru/" method="post">
-          <fieldset class="filter-groyp">
+          <fieldset class="filter-group">
             <legend class="filter-title">Инфраструктура:</legend>
             <ul class="filter-list">
               <li class="filter-item">
@@ -90,7 +87,7 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="filter-groyp">
+          <fieldset class="filter-group">
             <legend class="filter-title">Тип Жилья:</legend>
             <ul class="filter-list">
               <li class="filter-item">
@@ -113,8 +110,7 @@
               </li>
             </ul>
           </fieldset>
-          <h2 class="visually-hidden">Выбор цены проживания.</h2>
-          <fieldset class="filter-groyp">
+          <fieldset class="filter-group">
             <legend class="price-selection-title">Стоимость, ₽:</legend>
           </fieldset>
           <div class="infrastructure-button">
@@ -136,9 +132,14 @@
           </select>
         </div>
         <div class="view">
-          <button class="view-icon icon-table" type="button">Таблица</button>
-          <button class="view-icon" type="button">Слайд-шоу</button>
-          <button class="view-icon" type="button">Список</button>
+          <button class="view-icon icon-table" type="button">
+            <span class="visually-hidden">Таблица</span>
+          </button>
+          <button class="view-icon icon-slideshow" type="button">
+            <span class="visually-hidden">Слайд-шоу</span>
+          </button>
+          <button class="view-icon icon-list" type="button">
+            <span class="visually-hidden">Список</span>
         </div>
       </div>
     </section>
@@ -158,10 +159,10 @@
           </div>
           <div class="catalog-number-stars">
             <div class="number-stars-result">
-              <img src="#" alt="Четырехзвездочный отель.">
-              <img src="#" alt="">
-              <img src="#" alt="">
-              <img src="#" alt="">
+              <img src="images/star.svg" alt="Четырехзвездочный отель.">
+              <img src="images/star.svg" alt="">
+              <img src="images/star.svg" alt="">
+              <img src="images/star.svg" alt="">
             </div>
             <div class="rating">Рейтинг: 8,5</div>
           </div>
@@ -180,10 +181,10 @@
           </div>
           <div class="catalog-number-stars">
             <div class="number-stars-result">
-              <img src="#" alt="Четырехзвездочный отель.">
-              <img src="#" alt="">
-              <img src="#" alt="">
-              <img src="#" alt="">
+              <img src="images/star.svg" alt="Четырехзвездочный отель.">
+              <img src="images/star.svg" alt="">
+              <img src="images/star.svg" alt="">
+              <img src="images/star.svg" alt="">
             </div>
             <div class="rating">Рейтинг: 9,2</div>
           </div>
@@ -202,9 +203,9 @@
           </div>
           <div class="catalog-number-stars">
             <div class="number-stars-result">
-              <img src="#" alt="Трехзвездочный отель.">
-              <img src="#" alt="">
-              <img src="#" alt="">
+              <img src="images/star.svg" alt="Трехзвездочный отель.">
+              <img src="images/star.svg" alt="">
+              <img src="images/star.svg" alt="">
             </div>
             <div class="rating">Рейтинг: 6,9</div>
           </div>
@@ -223,8 +224,8 @@
           </div>
           <div class="catalog-number-stars">
             <div class="number-stars-result">
-              <img src="#" alt="Двухзвездочный отель.">
-              <img src="#" alt="">
+              <img src="images/star.svg" alt="Двухзвездочный отель.">
+              <img src="images/star.svg" alt="">
             </div>
             <div class="rating">Рейтинг: 5,0</div>
           </div>
@@ -274,17 +275,17 @@
     <section class="footer-social">
       <h2 class="visually-hidden">Мы в соцсетях.</h2>
       <ul class="footer-social-list">
-        <li class="footer-social-item">
+        <li class="footer-social-vk">
           <a class="button" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
-        <li class="footer-social-item">
+        <li class="footer-social-telegram">
           <a class="button" href="https://t.me/htmlacademy">
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
-        <li class="footer-social-item">
+        <li class="footer-social-youtube">
           <a class="button" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Ютуб</span>
           </a>

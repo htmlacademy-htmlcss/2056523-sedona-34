@@ -42,6 +42,17 @@ body {
     color: #000000;
 }
 
+.custom-link-search {
+    background-image: url("../images/search-by-site.svg");
+    background-repeat: no-repeat;
+}
+
+
+.custom-link-favorite {
+    background-image: url("../images/favorite.svg");
+    background-repeat: no-repeat;
+}
+
 .custom-link {
     font-weight: 700;
     font-size: 16px;
@@ -106,7 +117,7 @@ body {
     line-height: 21px;
     text-align: center;
     color: #ffffff;
-    background: #82B3D3;
+    background: #82b3d3;
 }
 
 .real-town-title {
@@ -135,7 +146,7 @@ body {
 }
 
 
-.advantages-housing {
+.adfooter-socialvantages-housing {
     background-image: url("../images/icon-house.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -173,7 +184,7 @@ body {
     line-height: 21px;
     text-align: center;
     color: #ffffff;
-    background: #82B3D3;
+    background: #82b3d3;
 }
 
 
@@ -321,7 +332,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
-    background: #82B3D3;
+    background: #82b3d3;
 }
 
 
@@ -336,9 +347,22 @@ body {
     color: #000000;
 }
 
-.footer-social-list {
-    margin: 0;
+.footer-social-vk {
+    background-image: url("../images/social-network-vkontakte.svg");
+    background-repeat: no-repeat;
 }
+
+.footer-social-telegram {
+    background-image: url("../images/telegram-social-network.svg");
+    background-repeat: no-repeat;
+}
+
+
+.footer-social-youtube {
+    background-image: url("../images/youtube-social-network.svg");
+    background-repeat: no-repeat;
+}
+
 
 .social-phone {
     font-size: 40px;
@@ -403,6 +427,16 @@ body {
     text-decoration: none;
 }
 
+.item-mein {
+    background-image: url("../images/breadcrumbs-icon-house.svg");
+    background-repeat: no-repeat;
+}
+
+.item-arrow {
+    background-image: url("../images/right-arrow-breadcrumbs.svg");
+    background-repeat: no-repeat;
+}
+
 .infrastructure {
     display: flex;
     margin-left: 70px;
@@ -411,11 +445,12 @@ body {
 }
 
 
-.filter-groyp {
+.filter-group {
     padding: 0;
     margin: 0;
     border: none;
 }
+
 
 .filter-title {
     font-weight: 700;
@@ -450,7 +485,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
-    background: #82B3D3;
+    background: #82b3d3;
     border-radius: 4px;
     padding: 14px 15px;
     border: none;
@@ -479,6 +514,21 @@ body {
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+}
+
+.icon-table {
+    background-image: url("../images/icon-table.svg");
+    background-repeat: no-repeat;
+}
+
+.icon-slideshow {
+    background-image: url("../images/icon-slideshow.svg");
+    background-repeat: no-repeat;
+}
+
+.icon-list {
+    background-image: url("../images/icon-list.svg");
+    background-repeat: no-repeat;
 }
 
 .catalog-item {
@@ -528,7 +578,7 @@ body {
     color: #ffffff;
     text-decoration: none;
     padding: 9px 15px 8px 15px;
-    background: #82B3D3;
+    background: #82b3d3;
     border-radius: 4px;
 }
 
@@ -541,7 +591,7 @@ body {
     color: #ffffff;
     text-decoration: none;
     padding: 9px 15px 8px 15px;
-    background: #7DB54F;
+    background: #7db54f;
     border-radius: 4px;
 }
 
@@ -552,7 +602,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     padding: 9px 22px 8px 23px;
-    background: #F2F2F2;
+    background: #f2f2f2;
     border-radius: 4px;
 }
 
@@ -566,7 +616,7 @@ body {
 
 
 .pagination {
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #e6e6e6;
     padding-top: 30px;
 }
 
@@ -579,8 +629,8 @@ body {
 .pagination-item {
     display: inline-block;
     padding: 12px 24px;
-    border: 1px solid #82B3D3;
-    background: #82B3D3;
+    border: 1px solid #82b3d3;
+    background: #82b3d3;
     border-radius: 4px;
     text-align: center;
 }
@@ -601,5 +651,5 @@ body {
 }
 
 .to-sign-catalog {
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
 }
