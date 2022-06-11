@@ -14,7 +14,14 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -27,6 +34,10 @@ body {
 
 /* Header */
 
+
+.main-container {
+  flex-grow: 1;
+}
 
 .main-header {
   background-color: #ffffff;
@@ -107,7 +118,18 @@ body {
 
 .advantages-list {
   margin: 0;
+  padding: 0;
   list-style-type: none;
+}
+
+.advantages-nested-list {
+  display: flex;
+  padding: 0;
+}
+
+.advantages-item {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .real-town {
@@ -146,7 +168,7 @@ body {
 }
 
 
-.adfooter-socialvantages-housing {
+.advantages-housing{
   background-image: url("../images/icon-house.svg");
   background-repeat: no-repeat;
   background-position: center;
