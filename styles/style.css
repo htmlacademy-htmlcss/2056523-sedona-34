@@ -45,6 +45,10 @@ body {
 
 /* Header */
 
+.main-header {
+  display: flex;
+  background-color: #ffffff;
+}
 
 .main-container {
   flex-grow: 1;
@@ -57,9 +61,15 @@ body {
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 390px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
@@ -74,7 +84,12 @@ body {
 }
 
 .custom-menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
+  max-width: 264px;
 }
 
 .custom-link-search {
@@ -119,6 +134,10 @@ body {
   margin-bottom: 61px;
 }
 
+.presentation-text {
+  background-color: #ffffff;
+}
+
 .presentation-text-sedona {
   font-weight: 700;
   font-size: 30px;
@@ -128,6 +147,7 @@ body {
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 31px;
+  padding-top: 63px;
 }
 
 .presentation-text-reason {
@@ -135,7 +155,7 @@ body {
   line-height: 26px;
   text-align: center;
   margin: 0;
-  margin-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 /* Main advantages */
@@ -166,12 +186,18 @@ body {
   background: #82b3d3;
 }
 
+
+.wrapper-real-town{
+  width: 230px;
+  height: 200px;
+  margin: 92px 85px;
+}
+
 .real-town-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  padding-top: 92px;
   margin: 0;
   margin-bottom: 30px;
 }
@@ -180,6 +206,10 @@ body {
   margin: 0;
   margin-bottom: 30px;
   color: #ffffff;
+}
+
+.real-town-description {
+  margin: 0;
 }
 
 .advantages-inner-item {
@@ -233,13 +263,16 @@ body {
   background: #82b3d3;
 }
 
+.wrapper-devil-bridge {
+  margin: 92px 85px;
+}
+
 
 .devil-bridge-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  padding-top: 92px;
   margin: 0;
   margin-bottom: 30px;
 }
@@ -249,6 +282,10 @@ body {
   margin: 0;
   margin-bottom: 30px;
   color: #ffffff;
+}
+
+.devil-bridge-description {
+  margin: 0;
 }
 
 .advantages-road {
@@ -392,18 +429,27 @@ body {
   list-style-type: none;
 }
 
-.footer-social-vk {
+.footer-social-vk {          /*  Не забыть убрать все границы у соц сетей */
+  width: 48px;
+  height: 40px;
+  border: 1px dotted #7db54f;
   background-image: url("../images/social-network-vkontakte.svg");
   background-repeat: no-repeat;
 }
 
 .footer-social-telegram {
+  width: 48px;
+  height: 40px;
+  border: 1px dotted #7db54f;
   background-image: url("../images/telegram-social-network.svg");
   background-repeat: no-repeat;
 }
 
 
 .footer-social-youtube {
+  width: 48px;
+  height: 40px;
+  border: 1px dotted #7db54f;
   background-image: url("../images/youtube-social-network.svg");
   background-repeat: no-repeat;
 }
