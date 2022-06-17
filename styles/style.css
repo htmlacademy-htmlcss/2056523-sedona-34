@@ -55,6 +55,14 @@ body {
   margin: 0 auto;
 }
 
+.navigation {
+  display: flex;
+}
+
+.navigation-list {
+  list-style-type: none;
+}
+
 
 .navigation-link {
   font-weight: 700;
@@ -63,6 +71,10 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: #000000;
+}
+
+.custom-menu {
+  list-style-type: none;
 }
 
 .custom-link-search {
@@ -180,7 +192,7 @@ body {
 }
 
 
-.advantages-housing{
+.advantages-housing {
   background-image: url("../images/icon-house.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -374,6 +386,10 @@ body {
   justify-content: space-between;
   background-color: #ffffff;
   color: #000000;
+}
+
+.footer-social-list {
+  list-style-type: none;
 }
 
 .footer-social-vk {
