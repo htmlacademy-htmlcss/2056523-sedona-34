@@ -604,6 +604,34 @@ body {
 
 .sort-catalog {
   display: flex;
+  align-items: center;
+}
+
+.search-result {
+  margin: 0 191px 0 0;
+  padding: 0;
+}
+
+.select-catalog {
+  margin-right: 78px;
+}
+
+.select-catalog-price {
+  padding: 14px 98px 14px 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 4px;
+}
+
+.view {
+  display: flex ;
+}
+
+.view-icon {
+  padding: 17px 16px;
+  border: 2px solid #f2f2f2;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-right: 8px;
 }
 
 .catalog-list {
@@ -719,6 +747,9 @@ body {
 
 /* Catalog pagination */
 
+.catalog {
+  margin: 55px 71px 56px 72px;
+}
 
 .pagination {
   display: flex;
