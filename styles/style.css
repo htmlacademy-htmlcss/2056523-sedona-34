@@ -48,20 +48,22 @@ body {
 .main-header {
   display: flex;
   background-color: #ffffff;
+  padding: 0 70px;
 }
 
-.main-container {
-  flex-grow: 1;
+.link-logo {
+  margin-right: 30px;
 }
 
 .page-container {
   max-width: 1200px;
-  margin: 0 auto;
 }
 
 .navigation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 1200px;
 }
 
 .navigation-list {
@@ -75,6 +77,8 @@ body {
 
 
 .navigation-link {
+  display: block;
+  margin-right: 34px;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
