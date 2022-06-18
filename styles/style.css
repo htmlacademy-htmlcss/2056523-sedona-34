@@ -722,8 +722,10 @@ body {
 
 .pagination {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-top: 1px solid #e6e6e6;
-  padding-top: 30px;
+  padding: 30px 71px 25px 73px;
 }
 
 
@@ -735,10 +737,19 @@ body {
 .pagination-item {
   display: inline-block;
   padding: 12px 24px;
-  border: 1px solid #82b3d3;
+  margin-right: 8px;
   background: #82b3d3;
   border-radius: 4px;
   text-align: center;
+}
+
+.select-control {
+  padding: 14px 98px 14px 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 4px;
+}
+.select-number {
+  padding: 21px 21px 21px;
 }
 
 
