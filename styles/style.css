@@ -205,7 +205,7 @@ body {
 }
 
 
-.wrapper-real-town{
+.wrapper-real-town {
   margin: 92px 85px;
 }
 
@@ -229,31 +229,38 @@ body {
 }
 
 .advantages-inner-item {
-  width: 400px;
-  height: 384px;
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 223px;
   background: rgba(131, 179, 211, 0.12);
   color: #000000;
   text-align: center;
+  align-items: center;
   list-style-type: none;
+  padding: 80px 85px 81px 85px;
+}
+.food-background {
+  background-color: #ffffff;
 }
 
 
 .advantages-housing {
-  background-image: url("../images/icon-house.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  order: -1;
+  margin-bottom: 30px;
 }
 
 .advantages-food {
-  background-image: url("../images/food-icon.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  order: -1;
+  margin-bottom: 31px;
 }
 
 .advantages-souvenirs {
-  background-image: url("../images/icon-souvenirs.svg");
   background-repeat: no-repeat;
-  background-position: center;
+  order: -1;
+  margin-bottom: 28px;
 }
 
 .inner-title {
@@ -262,9 +269,11 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
+  margin-bottom: 30px;
 }
 
 .inner-description {
+  margin: 0;
   font-size: 18px;
   line-height: 21px;
 }
@@ -304,6 +313,19 @@ body {
   margin: 0;
 }
 
+.advantages-nested-item {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  height: 179px;
+  background: rgba(131, 179, 211, 0.12);
+  color: #000000;
+  text-align: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 103px 85px 102px 85px;
+}
+
 .advantages-road {
   background: rgba(131, 179, 211, 0.2);
   color: #000000;
@@ -316,12 +338,23 @@ body {
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 30px;
-  padding: 103px 0 0 0;
 }
 
 .advantages-humber {
   margin: 0;
   margin-bottom: 30px;
+}
+
+.small-area-description {
+  margin: 0;
+}
+
+.beautiful-road-description {
+  margin: 0;
+}
+
+.few-tourists-description {
+  margin: 0;
 }
 
 
@@ -650,7 +683,7 @@ body {
 }
 
 .view {
-  display: flex ;
+  display: flex;
 }
 
 .view-icon {
@@ -819,6 +852,7 @@ body {
   border: 2px solid #f2f2f2;
   border-radius: 4px;
 }
+
 .select-number {
   padding: 21px 21px 21px;
 }
