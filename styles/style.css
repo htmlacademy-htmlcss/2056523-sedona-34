@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/ptsans-400.woff2") format(woff2);
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/ptsans-700.woff2") format(woff2);
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -794,7 +794,7 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: #82b3d3;
-  padding: 9px 11px 8px;
+  padding: 9px 15px 8px;
   border-radius: 4px;
   align-self: center;
   font-size: 16px;
@@ -807,7 +807,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   border-radius: 4px;
-  padding: 9px 10px 8px;
+  padding: 9px 15px 8px;
   background-color: #7db54f;
   text-align: center;
   align-self: center;
@@ -818,7 +818,7 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   background-color: #f2f2f2;
-  padding: 9px 17px 8px 17px;
+  padding: 9px 22px 8px 23px;
   border-radius: 4px;
   text-align: center;
 }
