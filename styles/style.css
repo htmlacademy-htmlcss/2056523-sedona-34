@@ -715,23 +715,18 @@ body {
 /* section catalog-hotel */
 
 
-.catalog-hotel {
-  display: grid;
-}
-
 .catalog-list {
   display: grid;
   grid-template-columns: repeat(3, 340px);
   list-style-type: none;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 71px 0 73px;
   gap: 0 18px;
 }
 
 .catalog-item {
   display: grid;
   grid-template-columns: 140px 140px;
-  grid-template-rows: auto auto auto auto auto;
   gap: 16px 20px;
   grid-auto-flow: row;
   grid-template-areas:
