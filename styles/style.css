@@ -45,10 +45,12 @@ body {
 
 /* Header */
 
+
 .main-header {
   display: flex;
   background-color: #ffffff;
   padding: 0 70px;
+  margin: 0;
 }
 
 .link-logo {
@@ -58,6 +60,8 @@ body {
 .page-container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0;
+
 }
 
 .navigation {
@@ -73,13 +77,18 @@ body {
   max-width: 550px;
   margin: 0;
   padding: 0;
+  padding-right: 45px;
   list-style-type: none;
+}
+
+.navigation-item {
+  margin: 0;
+  padding: 20px 17px;
 }
 
 
 .navigation-link {
-  display: block;
-  margin-right: 34px;
+  display: contents;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -100,17 +109,18 @@ body {
 
 
 .custom-link-search {
-  display: block;
+  display: inline-block;
   width: 42px;
   height: 66px;
   background-position: center;
   background-image: url("../images/search-by-site.svg");
   background-repeat: no-repeat;
+  color: #000000;
 }
 
 
 .custom-link-favorite {
-  display: block;
+  display: inline-block;
   width: 42px;
   height: 66px;
   background-position: center;
@@ -119,15 +129,15 @@ body {
 }
 
 .custom-link {
+  display: inline-block;
   width: 130px;
-  height: 20px;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  padding: 9px 15px 8px 15px;
+  padding: 9px 15px 8px;
   background: #756157;
   border-radius: 4px;
   color: #ffffff;
