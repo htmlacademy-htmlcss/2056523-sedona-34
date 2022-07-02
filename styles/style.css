@@ -496,23 +496,28 @@ body {
 }
 
 .social-footer {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   width: 48px;
   height: 40px;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.footer-social-vk {
-  background-image: url("../images/social-network-vkontakte.svg");
+.social-footer svg {
+  fill: #83b3d3;
 }
 
-.footer-social-telegram {
-  background-image: url("../images/telegram-social-network.svg");
+.social-footer svg:hover {
+  fill: #68a2c2;
 }
 
-.footer-social-youtube {
-  background-image: url("../images/youtube-social-network.svg");
+.social-footer svg:focus {
+  fill: #68a2c2;
+}
+
+.social-footer svg:active {
+  fill: rgba(104, 162, 202, 0.3);
 }
 
 
@@ -523,10 +528,36 @@ body {
   text-align: center;
 }
 
+.social-phone:hover {
+  color: #756157;
+}
+
+.social-phone:focus {
+  color: #756157;
+}
+
+.social-phone:active {
+  color: rgba(117, 97, 87, 0.3);
+}
+
 .htmlacademy-link {
   display: inline-block;
+  width: 115px;
+  height: 33px;
   color: #000000;
   text-decoration: none;
+}
+
+.htmlacademy-link:hover {
+  color: #756157;
+}
+
+.htmlacademy-link:focus {
+  color: #756157;
+}
+
+.htmlacademy-link:active {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 
