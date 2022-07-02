@@ -137,11 +137,27 @@ body {
   text-decoration: none;
   text-align: center;
   padding: 9px 15px 8px;
-  background: #756157;
   border-radius: 4px;
   color: #ffffff;
 }
 
+.custom-link:link {
+  background-color: #756157;
+}
+
+.custom-link:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.custom-link:hover {
+  background-color: #615048;
+}
+
+.custom-link:active {
+  background-color: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
 
 /* Main */
 
@@ -407,10 +423,35 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
-  background: #756157;
   border-radius: 4px;
   padding: 12px 15px;
 }
+
+
+.hotel-search-link:link {
+  background: #756157;
+}
+
+.hotel-search-link:visited {
+  background: #756157;
+}
+
+.hotel-search-link:focus {
+  background: #615048;
+}
+
+.hotel-search-link:hover {
+  background: #615048;
+}
+.hotel-search-link:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
+
 
 /* Main subscription */
 
@@ -460,7 +501,6 @@ body {
 .mailing-button {
   width: 200px;
   height: 60px;
-  border: none;
   padding: 12px 15px;
   border-radius: 0 10px 10px 0;
   font-weight: 700;
@@ -468,9 +508,29 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
   background: #82b3d3;
+  color: #ffffff;
+  cursor: pointer;
 }
+
+
+.mailing-button:focus {
+  background: #68a2c2;
+  outline: none;
+}
+
+.mailing-button:hover {
+  background: #68a2c2;
+}
+
+.mailing-button:active {
+  background: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+
 
 
 /* Main footer */
@@ -514,6 +574,7 @@ body {
 
 .social-footer svg:focus {
   fill: #68a2c2;
+  outline: transparent;
 }
 
 .social-footer svg:active {
@@ -683,6 +744,22 @@ body {
   margin-top: 65px;
 }
 
+.apply-filter:visited {
+  background: #82b3d3;
+}
+
+.apply-filter:focus {
+  background: #68a2c2;
+}
+
+.apply-filter:hover {
+  background: #68a2c2;
+}
+.apply-filter:active {
+  background: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .button-reset {
   margin: 0;
   padding: 0;
@@ -836,6 +913,19 @@ body {
   align-self: center;
 }
 
+.price-link-info:focus {
+  background: #615048;
+}
+
+.price-link-info:hover {
+  background: #615048;
+}
+
+.price-link-info:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .price-link-favourites {
   font-weight: 700;
   text-decoration: none;
@@ -847,6 +937,19 @@ body {
   border-radius: 4px;
   align-self: center;
   font-size: 16px;
+}
+
+.price-link-favourites:focus {
+  background: #68a2c2;
+}
+
+.price-link-favourites:hover {
+  background: #68a2c2;
+}
+
+.price-link-favourites:active {
+  background: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .added-favorites {
@@ -862,6 +965,18 @@ body {
   align-self: center;
 }
 
+.added-favorites:focus {
+  background: #6c9e42;
+}
+
+.added-favorites:hover {
+  background: #6c9e42;
+}
+
+.added-favorites:active {
+  background: #7db54f;
+  color: rgba(255, 255, 255, 0.3);
+}
 .rating {
   font-size: 16px;
   line-height: 20px;
@@ -900,11 +1015,13 @@ body {
 
 .pagination-item {
   display: inline-block;
-  padding: 12px 24px;
   margin-right: 8px;
   background: #82b3d3;
   border-radius: 4px;
   text-align: center;
+  width: 12px;
+  height: 36px;
+  padding: 12px 24px;
 }
 
 .select-control {
@@ -924,6 +1041,20 @@ body {
   line-height: 36px;
   text-decoration: none;
   color: #ffffff;
+  width: 12px;
+  height: 36px;
+}
+.pagination-link:focus {
+  background: #68a2c2;
+}
+
+.pagination-link:hover {
+  background: #68a2c2;
+}
+
+.pagination-link:active {
+  background: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .subscription-catalog {
