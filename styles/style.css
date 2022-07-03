@@ -1041,8 +1041,6 @@ body {
   line-height: 36px;
   text-decoration: none;
   color: #ffffff;
-  width: 12px;
-  height: 36px;
 }
 .pagination-link:focus {
   background: #68a2c2;
@@ -1055,6 +1053,10 @@ body {
 .pagination-link:active {
   background: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.hotels-page {
+  margin-right: 51px;
 }
 
 .subscription-catalog {
