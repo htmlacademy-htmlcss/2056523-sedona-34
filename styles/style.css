@@ -84,13 +84,17 @@ body {
 
 
 .navigation-link {
-  display: contents;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   text-transform: capitalize;
   text-decoration: none;
   color: #000000;
+}
+
+.navigation-item:hover {
+  border-bottom: 2px solid #756157;
+
 }
 
 .custom-menu {
