@@ -545,27 +545,27 @@ body {
 
 .social-footer {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   width: 48px;
   height: 40px;
+  background-image: #83b3d3;
 }
 
-.social-footer svg {
+.social-footer {
   fill: #83b3d3;
 }
 
-.social-footer svg:hover {
-  fill: #68a2c2;
-}
-
-.social-footer svg:focus {
+.social-footer:focus {
   fill: #68a2c2;
   outline: none;
 }
 
-.social-footer svg:active {
+.social-footer:hover {
+  fill: #68a2c2;
+}
+
+.social-footer:active {
   fill: rgba(104, 162, 202, 0.3);
 }
 
@@ -592,20 +592,18 @@ body {
   display: inline-block;
   width: 115px;
   height: 33px;
-  color: #000000;
-  text-decoration: none;
-}
-
-.htmlacademy-link:hover {
-  color: #756157;
 }
 
 .htmlacademy-link:focus {
-  color: #756157;
+  fill: #756157;
+}
+
+.htmlacademy-link:hover {
+  fill: #756157;
 }
 
 .htmlacademy-link:active {
-  color: rgba(117, 97, 87, 0.3);
+  fill: rgba(117, 97, 87, 0.3);
 }
 
 
