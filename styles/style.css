@@ -474,12 +474,13 @@ body {
 }
 
 .subscription-form {
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .mailing-email {
   width: 600px;
-  height: 60px;
+  height: 20px;
   border-radius: 10px 0 0 10px;
   border: none;
   margin-bottom: 94px;
@@ -487,8 +488,7 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #ffffff;
-  padding: 0;
-  padding-left: 22px;
+  padding: 20px 0 20px 22px;
 }
 
 .mailing-button {
@@ -504,6 +504,7 @@ body {
   background: #82b3d3;
   color: #ffffff;
   cursor: pointer;
+  border: none;
 }
 
 .mailing-button:focus {
@@ -605,7 +606,6 @@ body {
 .htmlacademy-link:active {
   fill: rgba(117, 97, 87, 0.3);
 }
-
 
 /* Catalog filter-content */
 
