@@ -614,7 +614,7 @@ body {
 /* Catalog filter-content */
 
 .filter-content {
-  padding: 35px 70px 70px;
+  padding: 35px 70px;
 }
 
 .main-inner {
@@ -687,8 +687,60 @@ body {
   margin-bottom: 30px;
 }
 
+.control {
+  position: relative;
+  display: block;
+}
+
+.control:focus .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+  border: 3px solid #83b3d3;
+}
+
+.control:hover .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.control:checked .control-mark {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.control-mark {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -4px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+
+.control-mark-type {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: -4px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.control:focus .control-mark-type {
+  border: 3px solid #83b3d3;
+}
+
 .control-input {
+  margin: 0;
   margin-bottom: 15px;
+}
+
+.control-mark {
+
+}
+
+.control-label {
+  margin-left: 19px;
 }
 
 .filter-list {
