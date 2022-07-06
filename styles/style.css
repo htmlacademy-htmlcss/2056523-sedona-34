@@ -706,6 +706,13 @@ body {
 
 .price-selection-title {
   padding: 0;
+  margin-bottom: 34px;
+}
+
+.range-wrapper-inputs {
+  width: 288px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
 }
 
 .infrastructure-button {
