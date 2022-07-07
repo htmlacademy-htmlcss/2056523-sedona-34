@@ -710,7 +710,7 @@ body {
   width: 20px;
   height: 20px;
   top: 0;
-  left: -4px;
+  left: 0;
   border-radius: 4px;
   background-color: #ffffff;
 }
@@ -721,7 +721,7 @@ body {
   width: 20px;
   height: 20px;
   top: 0;
-  left: -4px;
+  left: 1px;
   border-radius: 50%;
   background-color: #ffffff;
 }
@@ -730,13 +730,13 @@ body {
   border: 3px solid #83b3d3;
 }
 
-.control-input {
-  margin: 0;
-  margin-bottom: 15px;
+
+.filter-item {
+  margin-bottom: 16px;
 }
 
-.control-mark {
-
+.filter-item:last-child {
+  margin: 0;
 }
 
 .control-label {
@@ -786,8 +786,7 @@ body {
 .range-scale {
   position: relative;
   height: 4px;
-  background-color: #ffffff;
-  opacity: 0.3;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .range-bar {
@@ -810,16 +809,14 @@ body {
 .range-toggle:focus {
   background-color: #ffffff;
   outline: 3px solid #83b3d3;
-  box-shadow: 0 4px 10px
-  rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
 }
 
 .range-toggle:active {
   background-color: #ffffff;
   outline: 2px solid #83b3d3;
-  box-shadow: 0 7px 15px
-  rgba(0, 0, 0, 0.4);
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
 
@@ -835,8 +832,8 @@ body {
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
-appearance: none;
-margin: 0;
+  appearance: none;
+  margin: 0;
 }
 
 .infrastructure-button {
@@ -856,7 +853,7 @@ margin: 0;
   padding: 14px 15px;
   border: none;
   margin-bottom: 20px;
-  margin-top: 65px;
+  margin-top: 60px;
 }
 
 .apply-filter:visited {
