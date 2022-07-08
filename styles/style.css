@@ -692,24 +692,20 @@ body {
   display: block;
 }
 
-.control-input[type="checkbox"] {
-  margin: 0;
-  outline: none;
-}
 
 .control-mark {
   position: absolute;
   width: 20px;
   height: 20px;
   top: 1px;
-  left: -4px;
+  left: 1px;
   border-radius: 4px;
   background-color: #ffffff;
 }
 
 .control:focus .control-mark {
   background-color: rgba(255, 255, 255, 0.6);
-  outline: 3px solid #83b3d3;
+  border: 3px solid #83b3d3;
 }
 
 .control:hover .control-mark {
@@ -720,13 +716,27 @@ body {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffffff;
+  content: "";
+  background-image: url("../images/infrastructure-select-check-mark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+}
+
 
 .control-mark-type {
   position: absolute;
   width: 20px;
   height: 20px;
   top: 1px;
-  left: -1px;
+  left: 0;
   border-radius: 50%;
   background-color: #ffffff;
 }
@@ -735,8 +745,18 @@ body {
   border: 3px solid #83b3d3;
 }
 
-.control:focus .control-mark-type {
-  border: 3px solid #83b3d3;
+.control-input[type="radio"]:checked + .control-mark-type::after {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  content: "";
+  background-image: url("../images/infrastructure-select-circle-mark.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 
@@ -749,7 +769,7 @@ body {
 }
 
 .control-label {
-  margin-left: 19px;
+  margin-left: 39px;
 }
 
 .filter-list {
