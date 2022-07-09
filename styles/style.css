@@ -1278,6 +1278,12 @@ body {
   line-height: 26px;
 }
 
+.close-icon {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+}
+
 .modal-close-button {
   position: absolute;
   top: 54px;
