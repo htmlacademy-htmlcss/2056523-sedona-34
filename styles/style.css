@@ -710,6 +710,7 @@ body {
 
 .control:hover .control-mark {
   background: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .control:active .control-mark {
@@ -743,6 +744,10 @@ body {
 
 .control:focus .control-mark-type {
   border: 3px solid #83b3d3;
+}
+
+.control:hover .control-mark-type {
+  cursor: pointer;
 }
 
 .control-input[type="radio"]:checked + .control-mark-type::after {
@@ -898,15 +903,18 @@ body {
 
 .apply-filter:focus {
   background: #68a2c2;
+  cursor: pointer;
 }
 
 .apply-filter:hover {
-  background: #68a2c2;
+  background: #6a2c2;
+  cursor: pointer;
 }
 
 .apply-filter:active {
   background: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 }
 
 .button-reset {
@@ -923,15 +931,18 @@ body {
 .button-reset:focus {
   outline: 3px solid #82b3d3;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button-reset:hover {
   color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .button-reset:active {
   color: rgba(255, 255, 255, 0.3);
   outline: none;
+  cursor: pointer;
 }
 
 
@@ -982,16 +993,19 @@ body {
 .view-icon:hover {
   border: 2px solid #000000;
   outline: none;
+  cursor: pointer;
 }
 
 .view-icon:focus {
   border: 2px solid #68a2c2;
   outline: none;
+  cursor: pointer;
 }
 
 .view-icon:active {
   border: 2px solid #000000;
   outline: none;
+  cursor: pointer;
 }
 
 /* section catalog-hotel */
@@ -1305,6 +1319,7 @@ body {
 
 .modal-close-button:hover {
   background-color: #e6e6e6;
+  cursor: pointer;
 }
 
 .modal-close-button:active {
@@ -1337,7 +1352,6 @@ body {
   color: #ffffff;
   border-radius: 10px;
   border: 0;
-  padding: 0;
   padding: 12px 26px;
   background-color: #83b3d3;
   cursor: pointer;
@@ -1350,6 +1364,7 @@ body {
 
 .modal-search:hover {
   background-color: #68a2ca;
+  cursor: pointer;
 }
 
 .modal-search:active {
@@ -1381,6 +1396,7 @@ body {
 .group-input:hover {
   background-color: #e6e6e6;
   color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
 }
 
 .group-input:active {
@@ -1462,6 +1478,7 @@ body {
 
 .adults-plus:hover {
   fill: #000000;
+  cursor: pointer;
 }
 
 .adults-plus:active {
@@ -1490,6 +1507,7 @@ body {
 
 .adults-minus:hover {
   fill: #000000;
+  cursor: pointer;
 }
 
 .adults-minus:active {
@@ -1535,6 +1553,7 @@ body {
 
 .children-plus:hover {
   fill: #000000;
+  cursor: pointer;
 }
 
 .children-plus:active {
@@ -1564,6 +1583,7 @@ body {
 
 .children-minus:hover {
   fill: #000000;
+  cursor: pointer;
 }
 
 .children-minus:active {
@@ -1586,6 +1606,7 @@ body {
 
 .info:hover {
   background-color: #68a2ca;
+  cursor: pointer;
 }
 
 .parents {
