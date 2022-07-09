@@ -1386,10 +1386,17 @@ body {
 
 .field-group {
   display: flex;
+  position: relative;
   justify-content: space-between;
   align-items: center;
   margin: 0;
   margin-bottom: 40px;
+}
+
+.calendar-arrival {
+  position: absolute;
+  top: 18px;
+  right: 19px;
 }
 
 .vacationers {
