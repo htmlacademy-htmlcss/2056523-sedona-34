@@ -111,16 +111,41 @@ body {
   background-position: center;
   background-image: url("../images/search-by-site.svg");
   background-repeat: no-repeat;
+  margin-right: 2px;
 }
 
 
 .custom-link-favorite {
+  position: relative;
   display: inline-block;
   width: 42px;
   height: 66px;
   background-position: center;
   background-image: url("../images/favorite.svg");
   background-repeat: no-repeat;
+  margin-right: 18px;
+}
+
+.custom-favorite-count {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgba(125, 181, 79, 1);
+  top: 13px;
+  right: -2px;
+  border-radius: 50%;
+}
+.custom-favorite-count::after {
+  position: absolute;
+  content: "12";
+  color: #ffffff;
+  font-family: "PT -Sans";
+  font-style: normal;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 13px;
+  top: 3px;
+  left: 5px;
 }
 
 .custom-link {
