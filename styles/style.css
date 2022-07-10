@@ -187,6 +187,7 @@ body {
   background-image: url("../images/background/index-background.jpg");
   background-repeat: no-repeat;
   background-color: #ffffff;
+  background-size: cover;
   color: #000000;
 }
 
