@@ -80,6 +80,7 @@ body {
 
 .navigation-item {
   padding: 20px 17px;
+  position: relative;
 }
 
 
@@ -90,11 +91,6 @@ body {
   text-transform: capitalize;
   text-decoration: none;
   color: #000000;
-}
-
-.navigation-item:hover {
-  border-bottom: 2px solid #756157;
-
 }
 
 .custom-menu {
@@ -1618,4 +1614,25 @@ body {
   top: 6px;
   left: 11px;
   fill: #ffffff;
+}
+
+
+.navigation-link-main::after {
+  position: absolute;
+  width: 68px;
+  height: 2px;
+  background-color: #756257;
+  bottom: 0;
+  right: 18px;
+  content: "";
+}
+
+.navigation-link-hotels::after {
+  position: absolute;
+  width: 93px;
+  height: 2px;
+  background-color: #756257;
+  bottom: 0;
+  right: 16px;
+  content: "";
 }
