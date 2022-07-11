@@ -578,7 +578,6 @@ body {
   justify-content: center;
   width: 48px;
   height: 40px;
-  background-image: #83b3d3;
 }
 
 .social-footer {
@@ -932,7 +931,7 @@ body {
 }
 
 .apply-filter:hover {
-  background: #6a2c2;
+  background: #68a2ca;
   cursor: pointer;
 }
 
