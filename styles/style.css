@@ -1533,7 +1533,7 @@ body {
 
 .tooltip-text {
   position: absolute;
-  top: 28px;
+  top: 37px;
   left: -65px;
   background-color: #000000;
   box-shadow: 0 15px 30px
@@ -1558,6 +1558,19 @@ body {
 
 .tooltip-toggle:hover + .tooltip-text {
   display: block;
+}
+
+.tooltip-text::after {
+  content: "";
+  background-image: url("../images/tooltip-arrow.svg");
+  width: 19px;
+  height: 9px;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .adults {
