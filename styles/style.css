@@ -140,7 +140,7 @@ body {
   position: absolute;
   content: "12";
   color: #ffffff;
-  font-family: "PT -Sans";
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 10px;
   font-weight: 400;
@@ -807,8 +807,9 @@ body {
 }
 
 .control-input {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
@@ -833,7 +834,7 @@ body {
   color: #ffffff;
   width: 84px;
   outline: none;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -1303,7 +1304,7 @@ body {
 }
 
 .style-lebel {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1311,7 +1312,7 @@ body {
 }
 
 .vacationers label {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
@@ -1354,7 +1355,7 @@ body {
 }
 
 .modal-title {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -1367,7 +1368,7 @@ body {
 
 .modal-search {
   width: 575px;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -1404,7 +1405,7 @@ body {
   width: 382px;
   padding: 15px 19px 14px 19px;
   border-radius: 4px;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1425,7 +1426,7 @@ body {
 }
 
 .group-input:active {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   outline: 2px solid #000000;
   font-style: normal;
   font-weight: 700;
@@ -1469,7 +1470,7 @@ body {
 .adults {
   display: inline-block;
   width: 95px;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
@@ -1544,7 +1545,7 @@ body {
 .children {
   display: inline-block;
   width: 95px;
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
