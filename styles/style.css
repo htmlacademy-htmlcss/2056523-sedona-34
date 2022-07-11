@@ -81,11 +81,11 @@ body {
 
 .navigation-item {
   padding: 20px 17px;
-  position: relative;
 }
 
 
 .navigation-link {
+  position: relative;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -1286,6 +1286,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
+  display: none;
 }
 
 .modal {
@@ -1657,22 +1658,12 @@ body {
 }
 
 
-.navigation-link-main::after {
+.navigation-link-current::after {
   position: absolute;
-  width: 68px;
   height: 2px;
   background-color: #756257;
-  bottom: 0;
-  right: 18px;
-  content: "";
-}
-
-.navigation-link-hotels::after {
-  position: absolute;
-  width: 93px;
-  height: 2px;
-  background-color: #756257;
-  bottom: 0;
-  right: 16px;
+  bottom: -20px;
+  left: 0;
+  right: 0;
   content: "";
 }
