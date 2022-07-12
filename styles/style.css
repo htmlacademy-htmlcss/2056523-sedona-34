@@ -819,9 +819,9 @@ body {
 .range-wrapper-inputs {
   display: flex;
   justify-content: space-between;
-  border: 2px solid #ffffff;
   width: 246px;
   padding: 12px 19px;
+  margin-bottom: 32px;
 }
 
 .range-input {
@@ -836,13 +836,6 @@ body {
   line-height: 21px;
   font-weight: 400;
   font-style: normal;
-}
-
-
-
-.range-wrapper-inputs {
-  border-radius: 4px;
-  margin-bottom: 32px;
 }
 
 .range-scale {
@@ -892,8 +885,8 @@ body {
   right: -10px;
 }
 
-.range-input::-webkit-outer-spin-button,
-.range-input::-webkit-inner-spin-button {
+.input-min-prise::-webkit-outer-spin-button,
+.input-max-prise::-webkit-inner-spin-button {
   appearance: none;
   margin: 0;
 }
