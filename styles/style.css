@@ -869,6 +869,8 @@ body {
 
 .range-bar {
   position: absolute;
+  left: 10px;
+  width: 228px;
   height: 4px;
   background-color: #ffffff;
 }
