@@ -709,14 +709,58 @@ body {
   margin: 0;
 }
 
+.catalog-filter-min::after {
+  position: absolute;
+  content: "от";
+  top: 12px;
+  left: 110px;
+  font-family: "PT-Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.catalog-filter-max::after {
+  position: absolute;
+  content: "до";
+  top: 12px;
+  right: 14px;
+  font-family: "PT-Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .input-min-prise {
-  border: none;
-  padding: 0;
+  font-family: "PT-Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 12px 19px;
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 4px 0 0 4px;
+  margin: -1px;
 }
 
 .input-max-prise {
-  border: none;
-  padding: 0;
+  font-family: "PT-Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  width: 50%;
+  padding: 12px 19px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 0 4px 4px 0;
+  margin: -1px;
 }
 
 
@@ -840,10 +884,10 @@ body {
 }
 
 .range-wrapper-inputs {
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  width: 246px;
-  padding: 12px 19px;
+  align-items: center;
+  width: 288px;
   margin-bottom: 32px;
 }
 
