@@ -746,8 +746,12 @@ body {
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 4px 0 0 4px;
-  margin: -1px;
+  margin-right: -1px;
 }
+
+.input-min-prise::-webkit-input-placeholder {
+  color: #ffffff; }
+
 
 .input-max-prise {
   font-family: "PT-Sans", sans-serif;
@@ -760,8 +764,11 @@ body {
   background-color: transparent;
   border: 2px solid #ffffff;
   border-radius: 0 4px 4px 0;
-  margin: -1px;
+  margin-left: -1px;
 }
+
+.input-max-prise::-webkit-input-placeholder {
+  color: #ffffff; }
 
 
 .filter-title {
