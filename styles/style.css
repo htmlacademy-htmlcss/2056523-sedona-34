@@ -767,8 +767,10 @@ body {
 
 .input-min-prise:active {
   border-radius: 4px 0 0 4px;
-  background-color: #756257;
+  background-color: rgba(117, 97, 87, 1);
   border: 2px solid #ffffff;
+  outline: none;
+  box-shadow: none;
 }
 
 .input-max-prise {
@@ -802,8 +804,10 @@ body {
 
 .input-max-prise:active {
   border-radius: 0 4px 4px 0;
-  background-color: #756257;
+  background-color: rgba(117, 97, 87, 1);
   border: 2px solid #ffffff;
+  outline: none;
+  box-shadow: none;
 }
 
 .filter-title {
