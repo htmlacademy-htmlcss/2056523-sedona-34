@@ -714,7 +714,7 @@ body {
   content: "от";
   top: 12px;
   left: 110px;
-  font-family: "PT-Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -727,7 +727,7 @@ body {
   content: "до";
   top: 12px;
   right: 14px;
-  font-family: "PT-Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -736,7 +736,7 @@ body {
 }
 
 .input-min-prise {
-  font-family: "PT-Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -775,7 +775,7 @@ body {
 }
 
 .input-max-prise {
-  font-family: "PT-Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -1650,7 +1650,7 @@ body {
   color: #ffffff;
   display: block;
   padding: 15px 18px 18px 22px;
-  font-family: "PT-Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
