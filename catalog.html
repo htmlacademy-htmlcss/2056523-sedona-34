@@ -52,10 +52,21 @@
           <header class="inner-header">
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
-              <li class="breadcrumbs-item item-mein">
+              <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="index.html">
+                  <svg class="item-mein" width="13" height="12" viewBox="0 0 13 12" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6.11426 0L0.114258 5.80006V12.0001H12.1143V5.80006L6.11426 0ZM11.1143 11.0001H1.11426V6.20005L6.11426 1.4L11.1143 6.20005V11.0001Z" />
+                    <path d="M4.11426 10.0001H5.11426V7.50005H7.11426V10.0001H8.11426V6.50005H4.11426V10.0001Z" />
+                  </svg>
                   <span class="visually-hidden">Главная</span>
                 </a>
+              </li>
+              <li class="breadcrumbs-item">
+                <svg class="element-arrow" width="6" height="8" viewBox="0 0 6 8" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.88934 3.57515L1.08934 0.175146C0.889339 -0.0248535 0.489339 -0.0248535 0.189339 0.175146C-0.110661 0.375147 -0.0106609 0.775146 0.189339 0.975146L3.48934 3.97515L0.289339 6.97515C0.0893391 7.17515 0.0893391 7.57515 0.289339 7.77515C0.289339 7.87515 0.589339 7.97515 0.689339 7.97515C0.789339 7.97515 0.989339 7.87515 1.08934 7.77515L4.88934 4.37515C5.18934 4.17515 5.18934 3.77515 4.88934 3.57515Z" />
+                </svg>
               </li>
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="#">Гостиницы</a>
@@ -96,7 +107,8 @@
                 <ul class="filter-list">
                   <li class="filter-item">
                     <label class="control">
-                      <input class="visually-hidden control-input" type="radio" name="type-housing" value="hotel" checked>
+                      <input class="visually-hidden control-input" type="radio" name="type-housing" value="hotel"
+                        checked>
                       <span class="control-mark-type"></span>
                       <span class="control-label">Гостиница</span>
                     </label>
@@ -119,23 +131,23 @@
               </fieldset>
               <fieldset class="group-price">
                 <legend class="filter-title">Стоимость, ₽:</legend>
-                  <div class="range-wrapper-inputs">
-                    <input class="input-min-prise" id="min-prise" type="text" placeholder="0" name="min-prise">
-                    <label class="catalog-filter-min" for="min-prise"></label>
+                <div class="range-wrapper-inputs">
+                  <input class="input-min-prise" id="min-prise" type="text" placeholder="0" name="min-prise">
+                  <label class="catalog-filter-min" for="min-prise"></label>
 
-                    <input class="input-max-prise" id="max-prise" type="text" placeholder="9000" name="max-prise">
-                    <label class="catalog-filter-max" for="max-prise"></label>
+                  <input class="input-max-prise" id="max-prise" type="text" placeholder="9000" name="max-prise">
+                  <label class="catalog-filter-max" for="max-prise"></label>
+                </div>
+                <div class="range-scale">
+                  <div class="range-bar">
+                    <button type="button" class="range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button type="button" class="range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
                   </div>
-                  <div class="range-scale">
-                    <div class="range-bar">
-                      <button type="button" class="range-toggle toggle-min">
-                        <span class="visually-hidden">Изменить минимальную цену.</span>
-                      </button>
-                      <button type="button" class="range-toggle toggle-max">
-                        <span class="visually-hidden">Изменить максимальную цену.</span>
-                      </button>
-                    </div>
-                  </div>
+                </div>
               </fieldset>
               <div class="infrastructure-button">
                 <button class="button apply-filter" type="submit">Применить</button>
