@@ -186,11 +186,19 @@ body {
 
 
 .presentation-picture {
+  position: relative;
   background-image: url("../images/background/index-background.jpg");
   background-repeat: no-repeat;
   background-color: #ffffff;
   background-size: cover;
   color: #000000;
+}
+
+.presentation-divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .presentation-picture-welcome {
