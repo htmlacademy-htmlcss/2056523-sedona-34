@@ -1356,7 +1356,7 @@ body {
   background: #82b3d3;
   border-radius: 4px;
   text-align: center;
-  width: 12px;
+  min-width: 12px;
   height: 36px;
   padding: 12px 24px;
 }
