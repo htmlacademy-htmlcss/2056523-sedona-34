@@ -905,7 +905,7 @@ body {
 }
 
 .control:focus .control-mark-type {
-  border: 3px solid #83b3d3;
+  outline: 3px solid #83b3d3;
 }
 
 .control:hover .control-mark-type {
@@ -1122,13 +1122,24 @@ body {
 }
 
 .select-catalog {
+  position: relative;
   margin-right: 78px;
 }
 
 .select-catalog-price {
+  -webkit-appearance: none;
   padding: 14px 98px 14px 20px;
   border: 2px solid #f2f2f2;
   border-radius: 4px;
+}
+
+.catalog-price-arrow {
+  position: absolute;
+  width: 13px;
+  height: 7px;
+  right: 20px;
+  top: 50%;
+  bottom: 50%;
 }
 
 .view {
