@@ -1374,17 +1374,24 @@ body {
 }
 
 .select-control {
+  -webkit-appearance: none;
   width: 160px;
   padding: 14px 98px 14px 20px;
   border: 2px solid #f2f2f2;
   border-radius: 4px;
-  background-image: url("../images/down-arrow-breadcrumbs.svg");
-  background-repeat: no-repeat;
-  background-position: right 20px center;
 }
 
 .select-number {
   padding: 21px;
+}
+
+.select-number-arrow {
+  position: absolute;
+  width: 13px;
+  height: 7px;
+  right: 20px;
+  top: 50%;
+  bottom: 50%;
 }
 
 .pagination-link {
