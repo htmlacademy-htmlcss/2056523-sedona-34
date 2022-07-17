@@ -1216,6 +1216,7 @@ body {
 
 .catalog-hotel {
   grid-area: image;
+  margin-bottom: 66px;
 }
 
 .catalog-title {
@@ -1349,11 +1350,12 @@ body {
 }
 
 .pagination {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #e6e6e6;
   padding: 30px 71px 25px 73px;
+  width: 1056px;
 }
 
 .pagination-list {
@@ -1366,6 +1368,15 @@ body {
   box-sizing: content-box;
   margin-right: 8px;
   text-align: center;
+}
+
+.separation-band {
+  position: absolute;
+  border: 1px solid #e6e6e6;
+  background-color: #e6e6e6;
+  align-items: center;
+  top: 0;
+  width: 1056px;
 }
 
 .pagination-item:last-child {
