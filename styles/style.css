@@ -691,6 +691,14 @@ body {
   text-decoration: none;
 }
 
+.breadcrumbs-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .item-mein {
   position: absolute;
   width: 12px;
@@ -698,6 +706,14 @@ body {
   left: 0;
   top: 5px;
   fill: #ffffff;
+}
+
+.item-mein:hover {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.item-mein:active {
+  fill: rgba(255, 255, 255, 0.3);
 }
 
 .element-arrow {
