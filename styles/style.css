@@ -103,7 +103,7 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  max-width: 264px;
+  max-width: 280px;
 }
 
 
@@ -126,7 +126,7 @@ body {
   background-position: center;
   background-image: url("../images/favorite.svg");
   background-repeat: no-repeat;
-  margin-right: 18px;
+  margin-right: 20px;
 }
 
 .custom-favorite-count {
@@ -134,8 +134,8 @@ body {
   width: 20px;
   height: 20px;
   background-color: rgba(125, 181, 79, 1);
-  top: 13px;
-  right: -2px;
+  top: 16px;
+  right: -1px;
   border-radius: 50%;
 }
 
@@ -161,7 +161,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
-  padding: 9px 15px 8px;
+  padding: 10px 15px 8px;
   border-radius: 4px;
   color: #ffffff;
 }
