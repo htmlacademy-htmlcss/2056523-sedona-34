@@ -865,17 +865,17 @@ body {
   background-color: #ffffff;
 }
 
-.control:focus .control-mark {
+.control-input:focus + span {
   background-color: rgba(255, 255, 255, 0.6);
-  border: 3px solid #83b3d3;
+  outline: 3px solid #83b3d3;
 }
 
-.control:hover .control-mark {
+.control-input:hover + span {
   background: rgba(255, 255, 255, 0.6);
   cursor: pointer;
 }
 
-.control:active .control-mark {
+.control-input:active + span {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -904,15 +904,12 @@ body {
   background-color: #ffffff;
 }
 
-.control:focus .control-mark-type {
+.control-radio:focus + span {
   outline: 3px solid #83b3d3;
 }
 
-.control:hover .control-mark-type {
-  cursor: pointer;
-}
 
-.control-input[type="radio"]:checked + .control-mark-type::after {
+.control-radio[type="radio"]:checked + .control-mark-type::after {
   position: absolute;
   top: 5px;
   right: 5px;
@@ -923,9 +920,7 @@ body {
   background-image: url("../images/infrastructure-select-circle-mark.svg");
   background-repeat: no-repeat;
   background-position: center;
-
 }
-
 
 .filter-item {
   margin-bottom: 16px;
