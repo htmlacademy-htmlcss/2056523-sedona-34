@@ -114,7 +114,7 @@ body {
   background-position: center;
   background-image: url("../images/search-by-site.svg");
   background-repeat: no-repeat;
-  margin-right: 2px;
+  margin-right: -1px;
 }
 
 
@@ -674,10 +674,6 @@ body {
 
 /* Catalog filter-content */
 
-.filter-content {
-  padding: 35px 70px;
-}
-
 .main-inner {
   background-color: #ffffff;
   color: #000000;
@@ -689,6 +685,7 @@ body {
   background-repeat: no-repeat;
   background-color: #000000;
   color: #ffffff;
+  padding: 34px 70px 70px 70px;
 }
 
 .inner-header-title {
@@ -714,11 +711,14 @@ body {
 
 .breadcrumbs-item {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 .breadcrumbs-link {
   color: #ffffff;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 21px;
   text-decoration: none;
@@ -736,8 +736,8 @@ body {
   position: absolute;
   width: 12px;
   height: 12px;
-  left: 0;
-  top: 5px;
+  left: 2px;
+  top: 4px;
   fill: #ffffff;
 }
 
@@ -753,8 +753,8 @@ body {
   position: absolute;
   width: 6px;
   height: 8px;
-  left: 20px;
-  top: 8px;
+  left: 23px;
+  top: 6px;
   fill: #ffffff;
 }
 
@@ -772,7 +772,7 @@ body {
 .group-accommodation {
   padding: 0;
   margin: 0;
-  margin-right: 175px;
+  margin-right: 178px;
   border: none;
 }
 
@@ -908,7 +908,7 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 1px;
+  top: 0;
   left: 1px;
   border-radius: 4px;
   background-color: #ffffff;
@@ -930,7 +930,7 @@ body {
 
 .control-input[type="checkbox"]:checked + .control-mark::after {
   position: absolute;
-  top: 0;
+  top: -1px;
   left: 0;
   width: 20px;
   height: 20px;
@@ -947,8 +947,8 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 1px;
-  left: 0;
+  top: -1px;
+  left: 2px;
   border-radius: 50%;
   background-color: #ffffff;
 }
@@ -972,7 +972,7 @@ body {
 }
 
 .filter-item {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .filter-item:last-child {
@@ -1026,13 +1026,15 @@ body {
 
 .range-scale {
   position: relative;
+  top: -3px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .range-bar {
   position: absolute;
-  left: 10px;
+  left: 11px;
+  top: 0;
   width: 228px;
   height: 4px;
   background-color: #ffffff;
@@ -1070,7 +1072,7 @@ body {
 
 .toggle-max {
   top: -8px;
-  right: -10px;
+  right: 1px;
 }
 
 .input-min-prise::-webkit-outer-spin-button,
@@ -1086,7 +1088,10 @@ body {
 }
 
 .apply-filter {
+  width: 160px;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -1157,9 +1162,12 @@ body {
 }
 
 .search-result {
-  margin: 0 191px 0 0;
+  margin: 0;
+  margin-right: 191px;
   padding: 0;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
@@ -1167,22 +1175,28 @@ body {
 
 .select-catalog {
   position: relative;
-  margin-right: 78px;
+  margin-right: 77px;
 }
 
 .select-catalog-price {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-style: normal;
+  font-weight: 400;
   -webkit-appearance: none;
-  padding: 14px 98px 14px 20px;
+  padding: 12px 18px;
   border: 2px solid #f2f2f2;
+  width: 290px;
   border-radius: 4px;
 }
 
 .catalog-price-arrow {
   position: absolute;
   width: 13px;
-  height: 7px;
-  right: 20px;
-  top: 50%;
+  height: 11px;
+  right: 18px;
+  top: 36%;
   bottom: 50%;
 }
 
@@ -1249,12 +1263,16 @@ body {
 
 .catalog-hotel {
   grid-area: image;
-  margin-bottom: 66px;
 }
 
 .catalog-title {
   grid-area: title;
   margin: 0;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: normal;
 }
 
 .catalog-type {
@@ -1379,7 +1397,7 @@ body {
 /* Catalog pagination */
 
 .catalog {
-  padding: 55px 71px 56px 72px;
+  padding: 54px 60px 54px 72px;
 }
 
 .pagination {
@@ -1394,12 +1412,13 @@ body {
 .pagination-list {
   padding-left: 0;
   margin: 0;
+  margin-top: 65px;
 }
 
 .pagination-item {
   display: inline-block;
   box-sizing: content-box;
-  margin-right: 8px;
+  margin-right: 4px;
   text-align: center;
 }
 
@@ -1410,6 +1429,7 @@ body {
   align-items: center;
   top: 0;
   width: 1056px;
+  margin-top: 65px;
 }
 
 .pagination-item:last-child {
@@ -1422,6 +1442,7 @@ body {
   align-items: center;
   width: 386px;
   margin-left: auto;
+  margin-top: 65px;
 }
 
 .select-control {
@@ -1440,8 +1461,8 @@ body {
   position: absolute;
   width: 13px;
   height: 7px;
-  right: 20px;
-  top: 50%;
+  right: 19px;
+  top: 44%;
   bottom: 50%;
 }
 
