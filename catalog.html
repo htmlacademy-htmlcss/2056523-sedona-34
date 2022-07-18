@@ -52,10 +52,21 @@
           <header class="inner-header">
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
-              <li class="breadcrumbs-item item-mein">
+              <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="index.html">
+                  <svg class="item-mein" width="13" height="12" viewBox="0 0 13 12" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M6.11426 0L0.114258 5.80006V12.0001H12.1143V5.80006L6.11426 0ZM11.1143 11.0001H1.11426V6.20005L6.11426 1.4L11.1143 6.20005V11.0001Z" />
+                    <path d="M4.11426 10.0001H5.11426V7.50005H7.11426V10.0001H8.11426V6.50005H4.11426V10.0001Z" />
+                  </svg>
                   <span class="visually-hidden">Главная</span>
                 </a>
+              </li>
+              <li class="breadcrumbs-item">
+                <svg class="element-arrow" width="6" height="8" viewBox="0 0 6 8" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M4.88934 3.57515L1.08934 0.175146C0.889339 -0.0248535 0.489339 -0.0248535 0.189339 0.175146C-0.110661 0.375147 -0.0106609 0.775146 0.189339 0.975146L3.48934 3.97515L0.289339 6.97515C0.0893391 7.17515 0.0893391 7.57515 0.289339 7.77515C0.289339 7.87515 0.589339 7.97515 0.689339 7.97515C0.789339 7.97515 0.989339 7.87515 1.08934 7.77515L4.88934 4.37515C5.18934 4.17515 5.18934 3.77515 4.88934 3.57515Z" />
+                </svg>
               </li>
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="#">Гостиницы</a>
@@ -96,21 +107,22 @@
                 <ul class="filter-list">
                   <li class="filter-item">
                     <label class="control">
-                      <input class="visually-hidden control-input" type="radio" name="type-housing" value="hotel" checked>
+                      <input class="visually-hidden control-radio" type="radio" name="type-housing" value="hotel"
+                        checked>
                       <span class="control-mark-type"></span>
                       <span class="control-label">Гостиница</span>
                     </label>
                   </li>
                   <li class="filter-item">
                     <label class="control">
-                      <input class="visually-hidden control-input" type="radio" name="type-housing" value="motel">
+                      <input class="visually-hidden control-radio" type="radio" name="type-housing" value="motel">
                       <span class="control-mark-type"></span>
                       <span class="control-label">Мотель</span>
                     </label>
                   </li>
                   <li class="filter-item">
                     <label class="control">
-                      <input class="visually-hidden control-input" type="radio" name="type-housing" value="apartments">
+                      <input class="visually-hidden control-radio" type="radio" name="type-housing" value="apartments">
                       <span class="control-mark-type"></span>
                       <span class="control-label">Апартаменты</span>
                     </label>
@@ -119,23 +131,23 @@
               </fieldset>
               <fieldset class="group-price">
                 <legend class="filter-title">Стоимость, ₽:</legend>
-                  <div class="range-wrapper-inputs">
-                    <input class="input-min-prise" id="min-prise" type="text" placeholder="0" name="min-prise">
-                    <label class="catalog-filter-min" for="min-prise"></label>
+                <div class="range-wrapper-inputs">
+                  <input class="input-min-prise" id="min-prise" type="text" placeholder="0" name="min-prise">
+                  <label class="catalog-filter-min" for="min-prise"></label>
 
-                    <input class="input-max-prise" id="max-prise" type="text" placeholder="9000" name="max-prise">
-                    <label class="catalog-filter-max" for="max-prise"></label>
+                  <input class="input-max-prise" id="max-prise" type="text" placeholder="9000" name="max-prise">
+                  <label class="catalog-filter-max" for="max-prise"></label>
+                </div>
+                <div class="range-scale">
+                  <div class="range-bar">
+                    <button type="button" class="range-toggle toggle-min">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button type="button" class="range-toggle toggle-max">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
                   </div>
-                  <div class="range-scale">
-                    <div class="range-bar">
-                      <button type="button" class="range-toggle toggle-min">
-                        <span class="visually-hidden">Изменить минимальную цену.</span>
-                      </button>
-                      <button type="button" class="range-toggle toggle-max">
-                        <span class="visually-hidden">Изменить максимальную цену.</span>
-                      </button>
-                    </div>
-                  </div>
+                </div>
               </fieldset>
               <div class="infrastructure-button">
                 <button class="button apply-filter" type="submit">Применить</button>
@@ -153,7 +165,13 @@
             <div class="select-catalog">
               <select class="select-catalog-price" aria-label="Сортировка">
                 <option value="cheap">Сначала дешёвые</option>
+
               </select>
+              <svg class="catalog-price-arrow" width="13" height="7" viewBox="0 0 13 7"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M0.333928 0.344671C0.626821 0.0517776 1.10169 0.0517776 1.39459 0.344671L6.11426 5.06434L10.8339 0.34467C11.1268 0.0517767 11.6017 0.0517766 11.8946 0.34467C12.1875 0.637563 12.1875 1.11244 11.8946 1.40533L6.64459 6.65533C6.3517 6.94822 5.87682 6.94822 5.58393 6.65533L0.333928 1.40533C0.0410345 1.11244 0.0410345 0.637564 0.333928 0.344671Z" />
+              </svg>
             </div>
             <div class="view">
               <button class="view-icon" type="button">
@@ -249,22 +267,22 @@
           <h2 class="visually-hidden">Страницы с выбором гостиниц.</h2>
           <ul class="pagination-list">
             <li class="pagination-item">
-              <a class="pagination-link" href="#">1</a>
+              <button class="pagination-link pagination-link-1">1</button>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link" href="#">2</a>
+              <button class="pagination-link">2</button>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link" href="#">3</a>
+              <button class="pagination-link">3</button>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link" href="#">4</a>
+              <button class="pagination-link">4</button>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link" href="#">...</a>
+              <button class="pagination-link">...</button>
             </li>
             <li class="pagination-item">
-              <a class="pagination-link" href="#">10</a>
+              <button class="pagination-link">10</button>
             </li>
           </ul>
           <div class="sorting-found">
@@ -272,7 +290,14 @@
             <select class="select-control">
               <option class="select-number" value="4">4</option>
             </select>
+            <svg class="select-number-arrow" width="13" height="7" viewBox="0 0 13 7"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.333928 0.344671C0.626821 0.0517776 1.10169 0.0517776 1.39459 0.344671L6.11426 5.06434L10.8339 0.34467C11.1268 0.0517767 11.6017 0.0517766 11.8946 0.34467C12.1875 0.637563 12.1875 1.11244 11.8946 1.40533L6.64459 6.65533C6.3517 6.94822 5.87682 6.94822 5.58393 6.65533L0.333928 1.40533C0.0410345 1.11244 0.0410345 0.637564 0.333928 0.344671Z" />
+            </svg>
           </div>
+          <span class="separation-band"></span>
+
         </section>
         <section class="subscription-catalog">
           <h2 class="visually-hidden">Полезная рассылка.</h2>
