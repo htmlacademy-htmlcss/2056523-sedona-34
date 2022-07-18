@@ -1528,6 +1528,7 @@ body {
 .modal-container {
   display: flex;
   position: fixed;
+  display: none;
   top: 396px;
   left: 0;
   width: 100%;
